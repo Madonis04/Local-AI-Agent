@@ -1,0 +1,88 @@
+# Virtual Environment
+.venv/
+venv/
+env/
+ENV/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Agent Data
+.agent_data/
+.logs/
+*.log
+
+# Audio files
+*.wav
+*.mp3
+
+# Screenshots
+screenshots/
+
+# Configuration (contains sensitive data)
+config.ini
+
+# Model files (too large for git)
+*.gguf
+*.bin
+models/
+D:\LLMs/
+
+# ChromaDB
+chromadb/
+chroma.sqlite3
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*.ipynb
+
+# Temporary files
+*.tmp
+*.bak
+*.backup
+
+# Environment variables
+.env
+.env.local
+
+
+# Logslogs/
+*.log
+
+# Cache
+.cache/
+
+.\gpu.py
+agent_data/
+logs/
