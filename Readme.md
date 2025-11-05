@@ -151,32 +151,39 @@ Agent: sqrt(144) + 2^8 = 268.0
 - Applications (4): open notepad, VS Code, go to URL, search YouTube
 
 ## 📁 Project Structure
-AI Agent Final/
-├── agent/
-│ ├── tools/ # All tool implementations
-│ │ ├── base_tool.py
-│ │ ├── file_tools.py
-│ │ ├── system_tools.py
-│ │ ├── application_tools.py
-│ │ ├── memory_tools.py
-│ │ ├── daily_tools.py
-│ │ └── web_tools.py
-│ └── init.py
-├── llm_host/
-│ └── host_integration.py # Core agent logic
-├── memory/
-│ ├── vectorstore.py # Memory system
-│ └── init.py
-├── voice/
-│ ├── voice_interface.py # Voice I/O
-│ └── init.py
-├── config_manager.py # Configuration handler
-├── logger.py # Logging system
-├── main.py # Text mode entry
-├── voice_main.py # Voice mode entry
-├── config.ini # Configuration file
-├── requirements.txt
-└── README.md
+📁 local-ai-agent/
+├── 📄 README.md          ← Main documentation (with badges!)
+├── 📄 TOOLS.md           ← Complete tool reference
+├── 📄 LICENSE            ← MIT License
+├── 📄 requirements.txt   ← Dependencies
+├── 📄 config.example.ini ← Configuration template
+├── 📄 .gitignore         ← Protect sensitive files
+├── 📄 main.py            ← Text mode entry
+├── 📄 voice_main.py      ← Voice mode entry
+├── 📄 config_manager.py
+├── 📄 logger.py
+│
+├── 📁 agent/
+│   └── 📁 tools/
+│       ├── base_tool.py
+│       ├── file_tools.py
+│       ├── system_tools.py
+│       ├── application_tools.py
+│       ├── memory_tools.py
+│       ├── daily_tools.py
+│       └── web_tools.py
+│
+├── 📁 llm_host/
+│   └── host_integration.py
+│
+├── 📁 memory/
+│   ├── vectorstore.py
+│   └── __init__.py
+│
+└── 📁 voice/
+    ├── voice_interface.py
+    └── __init__.py
+
 
 ## 🎯 Use Cases
 
