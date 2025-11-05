@@ -53,8 +53,8 @@ A powerful, fully local AI assistant built with Llama 3 8B, featuring voice cont
 ### Installation
 
 1. **Clone the repository**
-git clone https://github.com/yourusername/local-ai-agent.git
-cd local-ai-agent
+git clone https://github.com/Madonis04/Local-AI-Agent.git
+cd Local-AI-Agent
 
 2. **Create virtual environment**
 python -m venv .venv
